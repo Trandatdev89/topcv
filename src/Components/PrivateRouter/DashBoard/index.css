@@ -1,0 +1,103 @@
+.dashboard {
+  margin-top: 50px;
+}
+.dashboard__job {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+}
+.dashboard__job--title {
+  font-size: 20px;
+  color: green;
+}
+.dashboard__align {
+  display: flex;
+  align-items: center;
+}
+.dashboard__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__img--green {
+  color: green;
+  background-color: rgb(191, 227, 191);
+}
+.dashboard__img--red {
+  color: #C43820;
+  background-color: #d89a8f;
+}
+.dashboard__img--blue {
+  color: #00175D;
+  background-color: #8f99b8;
+}
+.dashboard__text {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.dashboard__CV {
+  background-color: #fff;
+  padding: 20px;
+  height: 100%;
+  border-radius: 8px;
+}
+.dashboard__CV--title {
+  font-size: 20px;
+  color: #C43820;
+}
+.dashboard__info {
+  background-color: #fff;
+  padding: 20px;
+  height: 100%;
+  border-radius: 8px;
+}
+.dashboard__info--title {
+  font-size: 20px;
+  color: #00175D;
+}
+.dashboard__chart {
+  padding: 50px 0;
+}
+.dashboard__chartLine, .dashboard__chartPie {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  height: 95%;
+}
+
+.statisic {
+  padding-bottom: 80px;
+}
+.statisic__chart {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  height: 100%;
+}
+.statisic__box {
+  height: 95%;
+}
+.statisic__scale {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.statisic__title {
+  font-size: 20px;
+  color: #ddd;
+}
+.statisic__salary {
+  font-size: 25px;
+}
+.statisic__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}/*# sourceMappingURL=index.css.map */

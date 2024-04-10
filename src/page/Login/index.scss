@@ -1,0 +1,20 @@
+.login{
+    background-image:url("../../img/pexels-photo-212323.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    &__box{
+       max-width: 800px;
+       padding:20px ;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 15px;
+       background-color: #fff;
+      
+
+    }
+}

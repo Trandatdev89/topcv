@@ -1,0 +1,132 @@
+.dashboard {
+    margin-top: 50px;
+
+    &__job {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        height: 100%;
+
+        &--title {
+            font-size: 20px;
+            color: green;
+        }
+    }
+
+    &__align {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+
+        &--green {
+            color: green;
+            background-color: rgb(191, 227, 191);
+        }
+
+        &--red {
+            color: #C43820;
+            background-color: #d89a8f;
+        }
+
+        &--blue {
+            color: #00175D;
+            background-color: #8f99b8;
+        }
+
+    }
+
+    &__text {
+        flex: 1;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    &__CV {
+        background-color: #fff;
+        padding: 20px;
+        height: 100%;
+        border-radius: 8px;
+
+        &--title {
+            font-size: 20px;
+            color: #C43820;
+        }
+    }
+
+    &__info {
+        background-color: #fff;
+        padding: 20px;
+        height: 100%;
+        border-radius: 8px;
+
+        &--title {
+            font-size: 20px;
+            color: #00175D;
+        }
+    }
+
+    &__chart {
+        padding: 50px 0;
+    }
+
+    &__chartLine,
+    &__chartPie {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        height: 95%;
+    }
+
+
+}
+
+// statisic
+.statisic {
+    padding-bottom: 80px;
+
+    &__chart {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 40px;
+        height: 100%;
+    }
+
+    &__box {
+        height: 95%;
+    }
+
+    &__scale {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: #ddd;
+
+    }
+
+    &__salary {
+        font-size: 25px;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+}
+
+// End statisic:

@@ -1,0 +1,121 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.Header__logo {
+  height: 70px;
+  width: auto;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50%;
+}
+.Header__logo img {
+  width: 100%;
+  height: 100%;
+}
+.Header__login :nth-child(2) {
+  margin-left: 10px;
+}
+.Header__bar {
+  display: none;
+}
+.Header__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header__item {
+  margin: 0 20px;
+}
+.Header__link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.Header__link--active {
+  color: yellow;
+}
+.Header a {
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  .Header__nav, .Header__login {
+    display: none;
+  }
+  .Header__bar {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .Header__barlist {
+    background-color: #111827;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    z-index: 2;
+    top: 90px;
+  }
+  .Header__baritem {
+    cursor: pointer;
+  }
+  .Header__baritem:hover {
+    background-color: #fae;
+  }
+  .Header__baritem a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  .Header__baritem a:hover {
+    color: green;
+  }
+  .Header__item:hover {
+    opacity: 0.2;
+  }
+}
+
+.Footer {
+  background-color: #ddd;
+  padding: 0 20px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.Footer__desc {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.Footer__list {
+  list-style-type: none;
+}
+.Footer__item {
+  font-size: 18px;
+}
+.Footer__icons {
+  display: flex;
+  align-items: center;
+}
+.Footer__link {
+  font-size: 40px;
+  color: red;
+  margin: 0 10px;
+}
+.Footer__year {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0;
+}/*# sourceMappingURL=index.css.map */

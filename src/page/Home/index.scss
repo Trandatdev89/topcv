@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box;
+}
+
+.Banner {
+    padding-top: 200px;
+    padding-bottom: 80px;
+    background-image: url("https://myjob.info.vn/static/media/banner.a9e780af27b7226c2cfc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #d0b4b2;
+    
+    &__tag {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__group {
+        padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: #fff;
+        transform: translate(0, 150px);
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    &__box {
+        padding: 10px;
+    }
+
+    &__img {
+        img {
+            width: 40px;
+            height: 50px;
+        }
+    }
+
+    &__text {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    @media (max-width:"767.98px") {
+        &__box{
+            padding: 0;
+        }
+        
+    }
+    @media (max-width:"545.98px") {
+        &__text{
+           font-size: 18px;
+           margin-top: 10px;
+        }
+        
+    }
+}
+
+.BannerSearch {
+    &__input {
+        height: 50px;
+    }
+}
+
+
+.ant-btn.button {
+    background-color: #FA7070;
+    font-size: 18px;
+    color: #000;
+
+    &--active {
+        background-color: #C43820;
+        color: #fff;
+        width: 100%;
+        &:hover{
+            background-color: green;
+            color: #fff;
+        }
+    }
+    
+
+    height: 50px;
+}
+
+// Button::after
+.hinh{
+    padding:10px 20px;
+    color: #fff;
+    background-color: #C43820;
+    transition: all 0.2s linear;
+    border-radius: 8px;
+    border: none;
+    
+    &--one{
+        &:hover{
+            background-color: #fae;
+            color: #000;
+        }
+    }
+}
+
+// End Button:
+
+// ListCompany:
+.CompanyList {
+    padding: 150px 0;
+
+    &__img {
+        width: 100%;
+
+        img {
+            width: 80%;
+            height: 80%;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        border-radius: 15px;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-align: left;
+
+    }
+
+    &__logo {
+        max-width: 200px;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__content {
+        flex: 1;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #000;
+    }
+}
+
+// End List Company:
+
+// Boxtitle:
+.boxtitle {
+    &__icon {
+        font-size: 50px;
+        color: #DD3F24;
+        margin-right: 20px;
+    }
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 600;
+        color: #C43820;
+    }
+    @media (max-width:545.98px) {
+        &__title {
+            font-size: 25px;
+           
+        }
+        &__icon {
+            font-size: 25px;
+            
+        }
+    }
+}
+
+// End Boxtitle:
+
+// Recuitment;
+.Recuitment {
+    padding: 100px 0;
+    &__wrap {
+        border-radius: 15px;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    &__img {
+        width: 90px;
+        height: 90px;   
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  
+        }
+    }
+    &__content{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px ;
+    }
+    
+    @media (max-width:991.98px) {
+        &__img {
+            width: 70px;
+            height: 70px;   
+            
+        }
+        &__content{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            font-size: 18px;
+        }
+
+    }
+    @media (max-width:545.98px) {
+        &__img {
+            width: 50px;
+            height: 50px;   
+            
+        }
+        &__content{
+           
+            font-size: 16px;
+        }
+        &__btn{
+            width: 100%;
+        }
+    }
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-btn-primary:hover{
+    background-color: #C43820;
+}
+.swiper-backface-hidden .swiper-slide {
+    border-radius: 8px;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+//End Recuitment:
+
+// GoodJob:
+.goodJob {
+    padding: 100px 0;
+    background-color: #F3F5F7;
+
+    &__item {
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        transition: all 2s linear;
+        height: 90%;
+        margin-bottom: 20px;
+
+    }
+
+    &__name {
+        font-size: 20px;
+        color: #000;
+    }
+
+    &__companyName {
+        font-size: 18px;
+        color: #000;
+        opacity: 0.6;
+    }
+
+    &__item:hover {
+        background-color: #F3F5F7;
+        border: 1px solid #ddd;
+    }
+
+    &__img {
+        width: 100px;
+        height: 100px;
+        aspect-ratio: 1/1;
+        margin-right: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__content {
+        flex: 1;
+    }
+    @media (max-width:544.98px) {
+        &__name {
+            font-size: 18px;
+            color: #000;
+        }
+    
+        &__companyName {
+            font-size: 16px;
+            color: #000;
+            opacity: 0.6;
+        }
+    }
+}
+
+// End GoodJob:
+
+// Setting::after
+.setting{
+    padding: 80px 0;
+    background-color: #F3F5F7;
+    &__boxLeft{
+        text-align: left;
+    }
+    &__background{
+       img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+    }
+    &__boxRight{
+        margin-left: auto;
+    }
+    &__subBox{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        width: max-content;
+    }
+    &__subBox1{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        width: max-content;
+        margin-left: auto;
+    }
+    &__img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content{
+        flex:1;
+        margin-left: 20px;
+    }
+    &__title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    &__discover{
+        font-size: 16px;
+        color: green;
+    }
+    @media (max-width:991.98px) {
+        &__subBox,&__subBox1{
+            width: 100%;
+        }
+        &__subBox1{
+            text-align: left;
+        }
+    }
+    @media (max-width:767.98px) {
+        &__title{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    }
+}
+// End Setiing:
+
+// Tech::after
+.Tech{
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-image: url("https://static.topcv.vn/v4/image/cv-template/header_bg_content.png");
+    &__title{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #C43820;
+        margin-bottom: 40px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+            .Tech__btn{
+                background-color: green;
+            }
+            .Tech__subtitle{
+                color: green;
+            }
+        }
+    }
+    &__content{
+        flex: 1;
+    }
+    &__img{
+        width: 30%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__subtitle{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    &__desc{
+        font-size: 18px;
+    }
+    &__btn{
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        display: block;
+        margin-top: 15px;
+        border: none;
+        background-color: transparent;
+        transition: all 0.5s linear;
+    }
+   @media (max-width:767.98px) {
+    &__title{
+        font-size: 25px;
+    }
+    &__subtitle{
+        font-size: 18px;
+        font-weight: 500;
+    }
+   }
+}
+
+// ?End Tech:

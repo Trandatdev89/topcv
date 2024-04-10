@@ -1,0 +1,138 @@
+
+
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    &__logo {
+        height: 70px;
+        width: auto;
+        cursor: pointer;
+        overflow: hidden;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__login {
+        :nth-child(2) {
+            margin-left: 10px;
+        }
+    }
+    
+    &__bar{
+        display: none;
+    }
+    &__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin: 0 20px;
+
+
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+
+        &--active {
+            color: #C43820;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    @media (max-width:991.98px) {
+        &__nav,&__login{
+            display: none;
+        }
+        &__bar{
+            display: block;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        &__barlist{
+           background-color: #111827;
+           position: fixed;
+           width: 100%;
+           padding: 0;
+           z-index: 2;
+           top: 90px;
+           
+        }
+        &__baritem{
+            cursor: pointer;
+            &:hover{
+                background-color: #fae;
+            }
+            a{
+                display: block;
+                color: #fff;
+                font-size: 20px;
+                padding: 15px;
+                margin:  5px 0;
+                text-decoration: none;
+            }
+            a:hover{
+                color: green;
+            }
+        }
+        &__item:hover{
+           opacity: 0.2;
+        }
+    }
+}
+
+
+.Footer {
+    background-color:#ddd;
+    padding:0 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    &__desc{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    &__list{
+        list-style-type: none;
+    }
+    &__item{
+        font-size: 18px;
+    }
+    &__icons{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__link{
+        font-size: 40px;
+        color: red;
+        margin:0 10px;
+    }
+    &__year{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+}
+
