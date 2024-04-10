@@ -10,7 +10,7 @@ import DropDown from "./Dropdown";
 import logofold from "../../img/logo-fold.png";
 import logoAdmin from "../../img/logoAdmin.png";
 function HeaderAdmin() {
-  const [click, setClick] = useState(true);
+  const [click, setClick] = useState(false);
  
 
   const dispatch = useDispatch();
