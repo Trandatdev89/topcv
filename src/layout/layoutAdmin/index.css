@@ -124,5 +124,5 @@
   }
 }
 :where(.css-dev-only-do-not-override-djtmh8).ant-drawer {
-  display: none;
+  display: none !important;
 }/*# sourceMappingURL=index.css.map */

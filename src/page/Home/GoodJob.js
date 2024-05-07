@@ -11,13 +11,13 @@ function GoodJob() {
   const [skip, setSkip] = useState(0);
 
   const handleChange = (e, f) => {
-      setSkip(e);
+    setSkip(e);
   };
- 
+
   useEffect(() => {
     const fetchAPI = async () => {
-      const res=await get("jobs");
-      const  dat= await paginationJob(skip);
+      const res = await get("jobs");
+      const dat = await paginationJob(skip);
       const dataMerge = [];
       const result = await get("company");
       for (let i = 0; i < dat.length; i++) {
@@ -31,15 +31,13 @@ function GoodJob() {
     };
     fetchAPI();
   }, [skip]);
-  
-  
+
   return (
     <>
       {data.length > 0 && (
         <>
           <div className="goodJob">
             <div className="container">
-             
               <div className="boxtitle">
                 <h6
                   className="boxtitle__title"
@@ -51,10 +49,13 @@ function GoodJob() {
               <div className="goodjob__list">
                 <div className="row">
                   {data.map((item) => (
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"  key={item.id}>
+                    <div
+                      className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+                      key={item.id}
+                    >
                       <Link
                         style={{ textDecoration: "none" }}
-                        to={`/jobs/${item.id}`}                     
+                        to={`/jobs/${item.id}`}
                       >
                         <div className="goodJob__item wow animate__animated animate__fadeInDown">
                           <div className="goodJob__img">
@@ -83,9 +84,8 @@ function GoodJob() {
                   ))}
                 </div>
               </div>
-              <div className="mt-2" style={{textAlign:"center"}}>
+              <div className="mt-2" style={{ textAlign: "center" }}>
                 <Pagination
-               
                   defaultCurrent={1}
                   total={dataJob.length}
                   pageSize={9}

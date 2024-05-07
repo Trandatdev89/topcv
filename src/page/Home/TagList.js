@@ -15,7 +15,7 @@ function TagList() {
   return (
     <>
       <div className="mt-2 wow animate__animated animate__bounceInLeft">
-        <h3 style={{margin:"20px 0"}}>Đề xuất từ khóa:</h3>
+        <h5 style={{margin:"20px 0"}}>Đề xuất từ khóa:</h5>
         <Row gutter={[10,10]}>
           <Col span={24}>
             {tag.map((item) => (

@@ -1,0 +1,462 @@
+{
+  "city": [
+    {
+      "key": 1,
+      "value": "Ha Noi"
+    },
+    {
+      "key": 2,
+      "value": "Ho Chi Minh"
+    },
+    {
+      "key": 3,
+      "value": "Da Nang"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "html"
+    },
+    {
+      "key": 2,
+      "value": "css"
+    },
+    {
+      "key": 3,
+      "value": "javascript"
+    },
+    {
+      "key": 4,
+      "value": "database"
+    },
+    {
+      "key": 5,
+      "value": "json"
+    },
+    {
+      "key": 6,
+      "value": "php"
+    },
+    {
+      "key": 7,
+      "value": "python"
+    },
+    {
+      "key": 8,
+      "value": "java"
+    },
+    {
+      "key": 9,
+      "value": "sql"
+    },
+    {
+      "key": 10,
+      "value": "angulat"
+    },
+    {
+      "key": 11,
+      "value": "nodejs"
+    },
+    {
+      "key": 12,
+      "value": "reactjs"
+    },
+    {
+      "key": 13,
+      "value": "vuejs"
+    },
+    {
+      "key": 14,
+      "value": "dangjo"
+    },
+    {
+      "key": 15,
+      "value": "jquery"
+    },
+    {
+      "key": 16,
+      "value": "typescript"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "IdCompany": 1,
+      "name": "Senior Fontend Dev (Angular/Reactjs)",
+      "tags": [
+        "reactjs",
+        "angular",
+        "typescript",
+        "jquery"
+      ],
+      "salary": "2000",
+      "desc": "cong viec kho cuc",
+      "status": true,
+      "city": [
+        "Da Nang",
+        "Ho Chi Minh",
+        "Ha Noi"
+      ],
+      "createAt": "30-12-2022 21:22:17",
+      "updateAt": "24-03-2024 12:00:25"
+    },
+    {
+      "id": 2,
+      "IdCompany": 2,
+      "name": "Fontend Dev (Angular/Reactjs)",
+      "tags": [
+        "reactjs",
+        "java",
+        "python"
+      ],
+      "salary": "4000",
+      "desc": "ngoi choi xoi nuoc",
+      "status": true,
+      "city": [
+        "Ha Noi",
+        "Ho Chi Minh"
+      ],
+      "createAt": "10-02-2023 21:22:17",
+      "updateAt": "30-02-2023 16:12:25"
+    },
+    {
+      "name": "Junior Nodejs(3 nam KN)",
+      "tags": [
+        "database",
+        "php",
+        "reactjs",
+        "nodejs"
+      ],
+      "city": [
+        "Ha Noi"
+      ],
+      "salary": "4000",
+      "desc": "Cong viec vat va",
+      "status": true,
+      "IdCompany": 1,
+      "createAt": "24-03-2024 10:20:37",
+      "id": 3,
+      "updateAt": "24-03-2024 12:03:50"
+    },
+    {
+      "name": "DEV Fullstack java (senior 5 nam KN)",
+      "tags": [
+        "java",
+        "json",
+        "javascript",
+        "css",
+        "html",
+        "sql",
+        "jquery",
+        "typescript",
+        "reactjs"
+      ],
+      "city": [
+        "Ha Noi",
+        "Ho Chi Minh"
+      ],
+      "salary": "6000",
+      "desc": "Lam tu a-z",
+      "status": true,
+      "IdCompany": 1,
+      "createAt": "24-03-2024 17:58:03",
+      "id": 4
+    },
+    {
+      "name": "Senior DataAnalysis(4-5 năm kn)",
+      "tags": [
+        "sql",
+        "jquery",
+        "dangjo",
+        "typescript"
+      ],
+      "city": [
+        "Ha Noi",
+        "Da Nang"
+      ],
+      "salary": "3000",
+      "desc": "Công việc đòi hỏi tư duy logic,cạnh tranh cao",
+      "status": false,
+      "IdCompany": 1,
+      "createAt": "07-04-2024 21:52:18",
+      "id": 5
+    },
+    {
+      "name": "BlockChange (junior 1 năm kn)",
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "vuejs"
+      ],
+      "city": [
+        "Ha Noi",
+        "Ho Chi Minh"
+      ],
+      "salary": "8000",
+      "desc": "Lương cạnh tranh,tùy năng lực",
+      "status": true,
+      "IdCompany": 1,
+      "createAt": "07-04-2024 21:54:06",
+      "id": 6
+    },
+    {
+      "name": "IT helpdesk(senior 3 năm kn)",
+      "tags": [
+        "database",
+        "json",
+        "php",
+        "dangjo",
+        "jquery"
+      ],
+      "city": [
+        "Ha Noi"
+      ],
+      "salary": "122",
+      "desc": "Lương hấp dẫn",
+      "status": true,
+      "IdCompany": 6,
+      "createAt": "07-04-2024 22:05:02",
+      "id": 7
+    },
+    {
+      "name": "Python Django(intern)",
+      "tags": [
+        "python",
+        "php",
+        "json",
+        "database"
+      ],
+      "city": [
+        "Da Nang",
+        "Ho Chi Minh",
+        "Ha Noi"
+      ],
+      "salary": "60",
+      "desc": "Hoc hoi",
+      "status": true,
+      "IdCompany": 6,
+      "createAt": "07-04-2024 22:22:07",
+      "id": 8
+    },
+    {
+      "name": "Nodejs(intern)",
+      "tags": [
+        "json",
+        "php",
+        "javascript",
+        "java"
+      ],
+      "city": [
+        "Ho Chi Minh",
+        "Ha Noi"
+      ],
+      "salary": "1000",
+      "desc": "Up to 1000$",
+      "status": true,
+      "IdCompany": 7,
+      "createAt": "07-04-2024 22:28:15",
+      "id": 9
+    },
+    {
+      "name": "Database Engineer",
+      "tags": [
+        "database"
+      ],
+      "city": [
+        "Ha Noi",
+        "Da Nang"
+      ],
+      "salary": "6000",
+      "desc": "This is job hard",
+      "status": true,
+      "IdCompany": 7,
+      "createAt": "07-04-2024 22:30:37",
+      "id": 10
+    }
+  ],
+  "cv": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "le van a",
+      "phone": "02284747284",
+      "email": "dattest@gmail.com",
+      "statusRead": true,
+      "desc": "Xin chao toi la dat .Muon ung tuyen vao vi tri intern Frontend",
+      "linkProject": [
+        "https://28tech.com"
+      ],
+      "createAt": "02-01-2023 14:20:30",
+      "city": [
+        "Ha noi",
+        "Ho Chi Minh"
+      ]
+    },
+    {
+      "name": "Trần Xuân Trường",
+      "phone": "098765456",
+      "email": "truongcon123@gmail.com",
+      "city": [
+        "Ha Noi",
+        "Ho Chi Minh"
+      ],
+      "desc": "yêu lập trình",
+      "linkProject": [
+        "https://hoa.com",
+        "https://daca.vn"
+      ],
+      "idJob": 4,
+      "createAt": "26-03-2024 11:16:47",
+      "idCompany": 1,
+      "statusRead": true,
+      "id": 2
+    },
+    {
+      "name": "Nguyễn hùng cường",
+      "phone": "098765456",
+      "email": "cuonglatic@gmailc.om",
+      "city": [
+        "Ha Noi"
+      ],
+      "desc": "Quê Thanh hóa",
+      "linkProject": [
+        "https://minhdata.com"
+      ],
+      "idJob": 4,
+      "createAt": "26-03-2024 11:17:34",
+      "idCompany": 1,
+      "statusRead": true,
+      "id": 3
+    },
+    {
+      "name": "Duong Chau ",
+      "phone": "02839939",
+      "email": "duongchau@gmail.com",
+      "city": [
+        "Ha Noi",
+        "Ho Chi Minh"
+      ],
+      "desc": "La nguoi co chi cau tien",
+      "linkProject": [
+        "https://mc.com"
+      ],
+      "idJob": 6,
+      "createAt": "10-04-2024 17:14:35",
+      "idCompany": 1,
+      "statusRead": false,
+      "id": 4
+    }
+  ],
+  "company": [
+    {
+      "companyName": "Cong ty co phan AN VIET",
+      "phone": "0918273645",
+      "email": "ANVIET03102002@gmail.com",
+      "token": "xkkjhjsjxjsw2994hr3S",
+      "id": 1,
+      "password": "12345678",
+      "workingTime": "T2 -T7",
+      "quantityPeople": 16,
+      "desc": "Công ty Cổ phần Giải pháp Thanh toán Việt Nam (VNPAY) được thành lập từ tháng 03/2007 và hiện là công ty hàng đầu trong lĩnh vực Thanh toán điện tử tại Việt Nam.Với lĩnh vực kinh doanh cốt lõi Tài chính – Ngân hàng, Công nghệ thông tin – Viễn thông, VNPAY đã cung cấp dịch vụ tới hơn 40 ngân hàng tại Việt Nam. 5 công ty viễn thông đầu ngành và hơn 20.000 doanh nghiệp trên cả nước. VNPAY đã và đang đưa ra nhiều giải pháp thanh toán tiện lợi như: Ứng dụng Mobile Banking, Cổng thanh toán VNPAYQR, VNPAYQR, Mua sắm trực tuyến trên ứng dụng Mobile Banking (VnShop), Website thanh toán hóa đơn và mua hàng trực tuyến Vban.vn.Tổng đài bán vé máy bay VnTicket, Nạp tiền điện thoại (VnTopup), SMS Banking, Thanh toán hóa đơn (VnPayBill), Ví điện tử VnMart, dịch vụ Mobile Marketing...",
+      "detail": "Muc luong canh tranh",
+      "address": "123 duong Tran Phu",
+      "website": "https://daca.vn",
+      "thumbnail": "https://icolor.vn/wp-content/uploads/2022/03/logo-vingroup.jpg"
+    },
+    {
+      "companyName": "Cong ty DEF",
+      "phone": "0918273345",
+      "email": "datmacay@gmail.com",
+      "token": "JUHmsddnkdmkwkkdkf3r",
+      "id": 2,
+      "password": "00000000",
+      "workingTime": "T3 -T4",
+      "quantityPeople": 4,
+      "desc": "Công ty Cổ phần Giải pháp Thanh toán Việt Nam (VNPAY) được thành lập từ tháng 03/2007 và hiện là công ty hàng đầu trong lĩnh vực Thanh toán điện tử tại Việt Nam.Với lĩnh vực kinh doanh cốt lõi Tài chính – Ngân hàng, Công nghệ thông tin – Viễn thông, VNPAY đã cung cấp dịch vụ tới hơn 40 ngân hàng tại Việt Nam. 5 công ty viễn thông đầu ngành và hơn 20.000 doanh nghiệp trên cả nước. VNPAY đã và đang đưa ra nhiều giải pháp thanh toán tiện lợi như: Ứng dụng Mobile Banking, Cổng thanh toán VNPAYQR, VNPAYQR, Mua sắm trực tuyến trên ứng dụng Mobile Banking (VnShop), Website thanh toán hóa đơn và mua hàng trực tuyến Vban.vn.Tổng đài bán vé máy bay VnTicket, Nạp tiền điện thoại (VnTopup), SMS Banking, Thanh toán hóa đơn (VnPayBill), Ví điện tử VnMart, dịch vụ Mobile Marketing...",
+      "detail": "Muc luong canh tranh",
+      "address": "456 nguyenhue",
+      "website": "https://28tech.com",
+      "thumbnail": "https://cdn-new.topcv.vn/unsafe/200x/https://static.topcv.vn/company_logos/ipLdRyrqGnZe4hPCzO2Lj2XPQdzAwp37_1657252043____0afea70639e77b459d5c6d08fe2159ed.png"
+    },
+    {
+      "companyName": "Cong ty 89tech",
+      "phone": "083456345",
+      "email": "hotran123@gmail.com",
+      "password": "tranvanho",
+      "id": 3,
+      "address": "Khu 2 dinh cong hoang mai ha noi",
+      "quantityPeople": 22,
+      "workingTime": "T3_T5",
+      "website": "https://caycanh.com",
+      "desc": "Công ty Cổ phần Giải pháp Thanh toán Việt Nam (VNPAY) được thành lập từ tháng 03/2007 và hiện là công ty hàng đầu trong lĩnh vực Thanh toán điện tử tại Việt Nam.Với lĩnh vực kinh doanh cốt lõi Tài chính – Ngân hàng, Công nghệ thông tin – Viễn thông, VNPAY đã cung cấp dịch vụ tới hơn 40 ngân hàng tại Việt Nam. 5 công ty viễn thông đầu ngành và hơn 20.000 doanh nghiệp trên cả nước. VNPAY đã và đang đưa ra nhiều giải pháp thanh toán tiện lợi như: Ứng dụng Mobile Banking, Cổng thanh toán VNPAYQR, VNPAYQR, Mua sắm trực tuyến trên ứng dụng Mobile Banking (VnShop), Website thanh toán hóa đơn và mua hàng trực tuyến Vban.vn.Tổng đài bán vé máy bay VnTicket, Nạp tiền điện thoại (VnTopup), SMS Banking, Thanh toán hóa đơn (VnPayBill), Ví điện tử VnMart, dịch vụ Mobile Marketing...",
+      "detail": "Muc luong up to 2000$",
+      "thumbnail": "https://cdn-new.topcv.vn/unsafe/200x/https://static.topcv.vn/company_logos/cong-ty-tnhh-tm-acs-viet-nam-5bbc1eefb7fe4_rs.jpg"
+    },
+    {
+      "companyName": "cong ty co phan mclass",
+      "phone": "092939392",
+      "email": "mclass123@gmail.com",
+      "password": "mclass123",
+      "desc": "Công ty Cổ phần Giải pháp Thanh toán Việt Nam (VNPAY) được thành lập từ tháng 03/2007 và hiện là công ty hàng đầu trong lĩnh vực Thanh toán điện tử tại Việt Nam.Với lĩnh vực kinh doanh cốt lõi Tài chính – Ngân hàng, Công nghệ thông tin – Viễn thông, VNPAY đã cung cấp dịch vụ tới hơn 40 ngân hàng tại Việt Nam. 5 công ty viễn thông đầu ngành và hơn 20.000 doanh nghiệp trên cả nước. VNPAY đã và đang đưa ra nhiều giải pháp thanh toán tiện lợi như: Ứng dụng Mobile Banking, Cổng thanh toán VNPAYQR, VNPAYQR, Mua sắm trực tuyến trên ứng dụng Mobile Banking (VnShop), Website thanh toán hóa đơn và mua hàng trực tuyến Vban.vn.Tổng đài bán vé máy bay VnTicket, Nạp tiền điện thoại (VnTopup), SMS Banking, Thanh toán hóa đơn (VnPayBill), Ví điện tử VnMart, dịch vụ Mobile Marketing...",
+      "token": "v9uZJJnF78RC3ca5IOPT",
+      "id": 4,
+      "thumbnail": "https://cdn-new.topcv.vn/unsafe/200x/https://static.topcv.vn/company_logos/cong-ty-cp-dau-tu-va-phat-trien-y-te-an-sinh-605d47dea29fe.jpg"
+    },
+    {
+      "companyName": "Tập Đoàn VinHome Ocen Park",
+      "phone": "092929299",
+      "email": "Vincity12@gmail.com",
+      "password": "vinhome",
+      "token": "374cCSfzVcYXr1fPipke",
+      "id": 5,
+      "address": "123,tôn thất tùng,Hà Nội",
+      "quantityPeople": 20,
+      "workingTime": "T2-T6",
+      "website": "https://caycanh.com",
+      "thumbnail": "https://bdsweb.com.vn/upload_images/images/logo/logo-bat-dong-san-bdsweb-02.png",
+      "desc": "- Tiếp cận với khách hàng tiềm năng để giới thiệu về Global Logistics service (GLS), chào giá dịch vụ gồm cước Air, thủ tục hải quan, Trucking,... và lấy được hàng\n- Thực hiện chào bán các dịch vụ giao nhận vận tải và tiếp vận (đường bộ, đường biển, đường hàng không,...) của Công ty\n- Tìm kiếm, tư vấn, cho khách hàng có nhu cầu về dịch vụ Logistics của Công ty: dịch vụ hải quan, làm cước hàng air, sea quốc tế, dịch vụ giao nhận, vận chuyển hàng hóa trong và ngoài nước,... (tư vấn cho khách hàng về quy trình mở tờ khai, kết hợp giữa các quy trình từ đóng hàng, vận chuyển hàng ra cảng nộp tờ khai thông suốt",
+      "detail": "Muc luong up to 5000$"
+    },
+    {
+      "companyName": "Tập đoàn Thịnh Phát",
+      "phone": "0123839939",
+      "email": "Thinhphat9999@gmail.com",
+      "password": "Thinhphat9999",
+      "token": "mpCfL60v8xynvJZbkp71",
+      "id": 6,
+      "address": "456,Đại La,Hai bà Trưng,Hà Nội",
+      "quantityPeople": 10,
+      "workingTime": "cả tuần",
+      "website": "https://28tech.com",
+      "thumbnail": "https://bdsweb.com.vn/upload_images/images/logo/logo-bat-dong-san-bdsweb-03.png",
+      "desc": "Tiếp cận với khách hàng tiềm năng để giới thiệu về Global Logistics service (GLS), chào giá dịch vụ gồm cước Air, thủ tục hải quan, Trucking,... và lấy được hàng\nThực hiện chào bán các dịch vụ giao nhận vận tải và tiếp vận (đường bộ, đường biển, đường hàng không,...) của Công ty",
+      "detail": "Tấm chiếu mới"
+    },
+    {
+      "companyName": "Company Product YG",
+      "phone": "023882883",
+      "email": "YGkorea@gmail.com",
+      "password": "YGkorea",
+      "token": "JbLHaU0aoUo8KdpY9uAq",
+      "id": 7,
+      "address": "one site 123,cau giay,Ha noi",
+      "quantityPeople": 22,
+      "workingTime": "full time",
+      "website": "https://korea.com",
+      "thumbnail": "https://bdsweb.com.vn/upload_images/images/logo/logo-bat-dong-san-bdsweb-04.png",
+      "desc": "Tiếp cận với khách hàng tiềm năng để giới thiệu về Global Logistics service (GLS), chào giá dịch vụ gồm cước Air, thủ tục hải quan, Trucking,... và lấy được hàngThực hiện chào bán các dịch vụ giao nhận vận tải và tiếp vận (đường bộ, đường biển, đường hàng không,...) của Công ty",
+      "detail": "No one change to the past"
+    },
+    {
+      "companyName": "Tập đoàn KMA hà nội",
+      "phone": "0938849393",
+      "email": "KMAOne@gmail.com",
+      "password": "at19c",
+      "token": "neCrB3loI4DmEcfXKDAK",
+      "id": 8
+    }
+  ]
+}

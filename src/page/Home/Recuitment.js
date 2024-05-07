@@ -7,8 +7,6 @@ import { Pagination } from "swiper/modules";
 import "./styles.css";
 import { useEffect, useState } from "react";
 import { get } from "../../utils/requestAPI";
-import { getCompanyById } from "../../Services/getCompanyName";
-import { Button, Col, Row, Tag } from "antd";
 import { Link } from "react-router-dom";
 
 function Recuitment() {

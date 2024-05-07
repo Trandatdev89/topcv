@@ -26,7 +26,7 @@ function SearchForm() {
   return (
     <>
       <div className="BannerSearch wow animate__animated animate__bounceInDown">
-        <h2 className="mb-3" style={{color:"#C43820",fontSize:"40px",fontWeight:"bold"}}>1000+ jobs IT for Developer</h2>
+        <h3 className="mb-3" style={{color:"#C43820",fontSize:"40px",fontWeight:"bold"}}>1000+ jobs IT for Developer</h3>
         <Form onFinish={handleFinish}>
           <Row gutter={10}>
             <Col xxl={6} xl={6} lg={6} md={24} sm={24} xs={24}>

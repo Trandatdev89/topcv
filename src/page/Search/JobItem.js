@@ -1,6 +1,6 @@
-import { Card, Col, Row, Tag } from "antd";
+import { Col, Row, Tag } from "antd";
 import { Link } from "react-router-dom";
-import {TrophyFilled} from "@ant-design/icons";
+
 function JobItem(props) {
   const { item } = props;
   

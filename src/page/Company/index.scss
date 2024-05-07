@@ -60,12 +60,12 @@ a{
     }
     @media (max-width:767.98px) {
         &__desc{
-            font-size: 14px;
+            font-size: 12px;
             -webkit-line-clamp: 3;
            
         } 
         &__companyName{
-            font-size: 18px;
+            font-size: 16px;
           
         }
     }
@@ -78,5 +78,10 @@ a{
     padding: 150px 0;
     &__wrap{
         font-size: 18px;
+    }
+    @media (max-width:767.98px) {
+        &__wrap{
+            font-size: 12px;
+        }
     }
 }

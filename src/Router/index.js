@@ -16,7 +16,6 @@ import InfoCompany from "../Admin/InfoCompany";
 import CreateJob from "../Admin/CreateJobs";
 import JobDetails from "../Admin/JobDetails";
 import CVDetail from "../Admin/CVDetail";
-import ListJob from "../page/Jobs/ListJobs";
 import GoodJob from "../page/Home/GoodJob";
 import Blog from "../page/Blog";
 export const router = [

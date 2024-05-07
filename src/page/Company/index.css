@@ -67,4 +67,14 @@ a {
   .Listcompany__companyName {
     font-size: 18px;
   }
+}
+
+.CompanyDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+}
+.CompanyDetails__wrap {
+  font-size: 18px;
 }/*# sourceMappingURL=index.css.map */

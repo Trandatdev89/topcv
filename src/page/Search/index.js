@@ -12,7 +12,7 @@ function Search() {
   let tagSearch = param.get("tags") || "";
   tagSearch=tagSearch.toLowerCase(); 
   const [data, setData] = useState([]);
-  const [reload, setReload] = useState(false);
+  
   useEffect(() => {
     const fetchData = async () => {
       const res = await get("jobs");

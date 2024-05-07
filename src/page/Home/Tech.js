@@ -3,7 +3,7 @@ function Tech() {
     <>
       <div className="Tech">
         <h3 className="Tech__title">
-          Hệ sinh thái công nghệ nhân sự của TopCV bao gồm 4 sản phẩm chủ lực:
+          Hệ sinh thái của VinaTech:
         </h3>
         <div className="Tech__list">
           <div className="container">

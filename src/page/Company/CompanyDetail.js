@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { getCompanyById } from "../../Services/getCompanyName";
 import { Col, Row } from "antd";
 import { getJobsByIdCompany } from "../../Services/getJobsByIdCompany";
-import { get } from "../../utils/requestAPI";
 import JobItem from "../Search/JobItem";
 function CompanyDetail() {
   const param = useParams();
@@ -49,7 +48,7 @@ function CompanyDetail() {
                   </div>
                   <div className="mb-2">
                     Link website:
-                    <strong>{data.companyName}</strong>
+                    <strong>{data.website}</strong>
                   </div>
                   <div className="mb-2">
                     Mô tả

@@ -44,7 +44,6 @@ function HeaderAdmin() {
         <div className="HeaderAdmin__content">
           <div className="HeaderAdmin__bars">
             <Button size="large" icon={<BarsOutlined />} onClick={handleClick}></Button>
-           
           </div>
           <div className="HeaderAdmin__wrap">
             <div className="HeaderAdmin__dropdown" style={{marginRight:"10px"}}>
