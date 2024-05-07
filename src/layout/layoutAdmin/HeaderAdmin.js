@@ -9,6 +9,7 @@ import { getCookie } from "../../Components/helper/cookie";
 import DropDown from "./Dropdown";
 import logofold from "../../img/logo-fold.png";
 import logoAdmin from "../../img/logoAdmin.png";
+import DropdownCompany from "./DropdownCompany.js";
 function HeaderAdmin() {
   const [click, setClick] = useState(false);
  
@@ -24,6 +25,7 @@ function HeaderAdmin() {
   return (
     <>
       <div className="HeaderAdmin">
+
         <div
           className={
             click
@@ -49,23 +51,8 @@ function HeaderAdmin() {
             <div className="HeaderAdmin__dropdown" style={{marginRight:"10px"}}>
               <DropDown/>
             </div>
-            <div className="HeaderAdmin__user">
-              <img src="https://i.imgur.com/dn1R8ys.png" alt="dang tai anh" />
-              <div className="HeaderAdmin__info">
-                <div className="HeaderAdmin__name">{getFullName}</div>
-                <div>Nhà tuyển dụng</div>
-              </div>
-            </div>
-            <div className="HeaderAdmin__login">
-              <>
-                <Link to="/">
-                  <Button type="primary">Trang chủ</Button>
-                </Link>
-                <Link to="/logout">
-                  <Button type="primary">Đăng xuất</Button>
-                </Link>
-              </>
-            </div>
+            <DropdownCompany getFullName={getFullName}/>
+            
           </div>
         </div>
       </div>

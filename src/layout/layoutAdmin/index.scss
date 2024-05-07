@@ -134,12 +134,20 @@
     .HeaderAdmin{
         padding: 15px 0;
     }
+    // :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
+    //     display: block !important;
+    // }
+    :where(.css-djtmh8).ant-drawer{
+        display: block !important;
+    }
     :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
         display: block !important;
     }
-    
 }
 
 :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
     display: none;
+}
+:where(.css-djtmh8).ant-drawer{
+    display: none !important;
 }
