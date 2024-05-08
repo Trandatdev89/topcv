@@ -15,15 +15,18 @@
         border: 1px solid #ddd;
         transition: all 0.2s linear;
         text-align: center;
+
         &--active {
             width: 80px;
         }
     }
+
     @media (max-width:991.98px) {
-        &__logo{
+        &__logo {
             display: none;
         }
-        &__login{
+
+        &__login {
             display: none;
         }
     }
@@ -88,24 +91,29 @@
         padding: 20px 0;
         border-bottom: 1px solid #ddd;
     }
-    &__body{
+
+    &__body {
         max-height: 350px;
-        overflow-y:scroll;
+        overflow-y: scroll;
 
     }
+
     &__box {
         border-bottom: 1px solid #ddd;
         display: flex;
         align-items: center;
         padding: 20px;
     }
-    &__ring{
+
+    &__ring {
         font-size: 18px;
     }
-    &__view a{
+
+    &__view a {
         text-decoration: none;
         font-size: 18px;
     }
+
     &__icon {
         width: 50px;
         height: 50px;
@@ -128,26 +136,29 @@
 //End Dropdown:
 
 @media (max-width:991.98px) {
-    .slide{
+    .slide {
         display: none;
     }
-    .HeaderAdmin{
+
+    .HeaderAdmin {
         padding: 15px 0;
     }
-    // :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
-    //     display: block !important;
-    // }
-    :where(.css-djtmh8).ant-drawer{
-        display: block !important;
+
+
+    .ant-drawer-mask {
+        display: block;
     }
+
     :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
         display: block !important;
     }
+
+}
+
+.ant-drawer-mask {
+    display: none;
 }
 
 :where(.css-dev-only-do-not-override-djtmh8).ant-drawer{
     display: none;
-}
-:where(.css-djtmh8).ant-drawer{
-    display: none !important;
 }

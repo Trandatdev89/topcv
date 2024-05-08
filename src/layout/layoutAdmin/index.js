@@ -12,7 +12,7 @@ import MenuDrawer from "./MenuDrawer";
 function LayoutAdmin() {
   const dispatch = useDispatch();
   const reload = useSelector((state) => state.ReloadReducer);
-  console.log(reload);
+  
   const handleClose = (e) => {
     dispatch(Reload(false));
   };

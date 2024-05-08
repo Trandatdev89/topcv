@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function DropdownCompany(props) {
   const { getFullName } = props;
-  console.log(getFullName)
+  
   const styleCSS={
     "textDecoration":"none",
   }
