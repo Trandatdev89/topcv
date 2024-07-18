@@ -11,11 +11,13 @@ function Search() {
   const citySearch = param.get("city") || "";
   let tagSearch = param.get("tags") || "";
   tagSearch=tagSearch.toLowerCase(); 
+  
   const [data, setData] = useState([]);
   
   useEffect(() => {
     const fetchData = async () => {
       const res = await get("jobs");
+      
       if (res) {
         const newData = res.filter((item) => {
           const city = citySearch ? item.city?.includes(citySearch) : true;

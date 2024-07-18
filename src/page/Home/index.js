@@ -57,7 +57,7 @@ function Home() {
               <Col xxl={6} xl={6} lg={6} md={12} sm={24} xs={24}>
                 <div className="Banner__box">
                   <div className="Banner__img">
-                    <img src="https://c.topdevvn.com/v4/_next/static/media/blog-it-icon.63d34c5a.svg" />
+                    <img src="https://c.topdevvn.com/v4/_next/static/media/personality-test.055a829e.svg" />
                   </div>
                   <div className="Banner__text">Blog IT</div>
                 </div>

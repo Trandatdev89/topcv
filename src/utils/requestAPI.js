@@ -1,4 +1,7 @@
-const API_DOMAIN="https://json-server-topcv.onrender.com/";
+const API_DOMAIN="http://localhost:3002/";
+
+
+// https://json-server-topcv.onrender.com/
 
 
 export const get=async(path)=>{
